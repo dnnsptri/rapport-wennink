@@ -1,0 +1,46 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+
+const Navbar = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 0); // No delay for navbar
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <section className={`transition-all duration-700 ease-out ${
+      isVisible 
+        ? 'opacity-100 translate-y-0' 
+        : 'opacity-0 translate-y-8'
+    }`}>
+      <div className="w-full">
+        <nav className="flex items-center justify-between py-4">
+          <div className="flex items-center ml-8">
+            <div className="flex items-center gap-2 select-none">
+              <img
+                src="/_images/bm_Rapport_Wennink.svg"
+                alt="Rapport Wennink"
+                className="h-18 dark:invert"
+              />
+            </div>
+          </div>
+          <div className="flex items-center mr-8">
+            <Button asChild size="lg" className="group cta-btn">
+              <a href="#presentatie" className="no-underline">
+                Wees er bij op 12 dec!
+              </a>
+            </Button>
+          </div>
+        </nav>
+      </div>
+    </section>
+  );
+};
+
+export { Navbar };

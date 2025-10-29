@@ -1,0 +1,11 @@
+# Robots.txt for rapportwennink
+# Temporarily disallow all crawlers during development
+
+User-agent: *
+Disallow: /
+
+# When ready to launch, replace with:
+# User-agent: *
+# Allow: /
+# 
+# Sitemap: https://yourdomain.com/sitemap.xml
