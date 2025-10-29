@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner";
-import { Navbar } from "@/components/Navbar_button";
+import { Navbar } from "@/components/Navbar_logo";
 import { Klankbordgroep } from "@/components/Klankbordgroep";
 import { Footer } from "@/components/Footer";
 import { HeaderQuote } from "@/components/HeaderQuote";
@@ -8,6 +8,7 @@ import { Presentatie } from "@/components/Presentatie";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { StickyTab } from "@/components/StickyTab";
 import { RightStepper } from "@/components/RightStepper";
+import { SectionDivider } from "@/components/SectionDivider";
 
 export default function Home() {
   return (
@@ -17,10 +18,13 @@ export default function Home() {
       <Navbar />
       
       <HeaderQuote />
+      <SectionDivider />
       
       <Presentatie />
+      <SectionDivider />
       
       <Klankbordgroep />
+      <SectionDivider />
       
       <Contact />
       

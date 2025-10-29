@@ -37,7 +37,7 @@ export function RightStepper() {
   return (
     <div
       aria-label="Page sections"
-      className="fixed right-8 top-1/2 -translate-y-1/2 z-[1000] hidden md:flex flex-col items-center gap-3"
+      className="fixed right-8 top-1/2 -translate-y-1/2 z-[1000] hidden min-[1400px]:flex flex-col items-center gap-3"
     >
       {SECTIONS.map((id) => {
         const isActive = id === activeId;
@@ -57,8 +57,8 @@ export function RightStepper() {
             <span
               className="block rounded-full transition-all duration-200"
               style={{
-                width: 14,
-                height: 14,
+                width: 12,
+                height: 12,
                 border: "1px solid #026B89",
                 backgroundColor: fillColor,
               }}

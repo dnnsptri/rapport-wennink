@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="flex items-center mr-8">
             <Button asChild size="lg" className="group cta-btn">
               <a href="#presentatie" className="no-underline">
-                Wees er bij op 12 dec!
+                Lees de Kamerbrief
               </a>
             </Button>
           </div>

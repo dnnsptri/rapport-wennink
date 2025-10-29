@@ -29,7 +29,7 @@ const Contact = ({
 }: ContactProps) => {
   return (
     <section id="contact" className="bg-background py-32">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-6 md:px-4">
         <div className="mb-14">
           <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:mb-10 lg:text-6xl">
             {title}

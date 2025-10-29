@@ -25,7 +25,7 @@ const HeaderQuote = () => {
 
   return (
     <section id="headerquote" className="py-32">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-6 md:px-4">
         <div className={`transition-all duration-1000 ease-out ${
           isVisible 
             ? 'opacity-100 translate-y-0' 
