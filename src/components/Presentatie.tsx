@@ -40,7 +40,7 @@ const Presentatie = () => {
             </div>
           </div>
           <img
-            src="/_images/mikkelsen1.jpg"
+            src="/_images/wennink2.jpg"
             alt="Peter Wennink tijdens zijn presentatie bij Nieuwspoort"
             className="border-border w-full max-w-lg rounded-lg border"
           />

@@ -2,8 +2,8 @@ const Klankbordgroep = () => {
   return (
     <section id="klankbordgroep" className="py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-4">
-        <div className="flex flex-col items-center justify-start gap-6 lg:flex-row">
-          <div className="flex w-full flex-col items-start justify-start gap-24 lg:w-1/2">
+        <div className="flex flex-col items-start justify-start gap-12 lg:flex-row">
+          <div className="flex w-full flex-col items-start justify-start gap-10 lg:w-1/2">
             <div className="pr-6">
               <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:mb-10 lg:text-6xl">
                 Klankbordgroep Wennink
@@ -15,63 +15,34 @@ const Klankbordgroep = () => {
               Daarnaast heeft Peter Wennink diverse werksessies met experts uit uiteenlopende delen van het bedrijfsleven en kennisinstellingen uit de domeinen waar Nederland het verschil kan maken: digitalisering &amp; AI, veiligheid, klimaat &amp; energie en medische &amp; biotechnologie.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
-              <img
-                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/annie-spratt-MChSQHxGZrQ-unsplash.jpg"
-                alt="about 1"
-                className="aspect-[0.7] w-full rounded-lg object-cover md:w-1/2"
-              />
-              <div className="flex w-full flex-col items-center justify-center gap-6 md:w-1/2">
-                <img
-                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/annie-spratt-AkftcHujUmk-unsplash.jpg"
-                  alt="about 2"
-                  className="aspect-[1.1] rounded-lg object-cover"
-                />
-                <img
-                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/annie-spratt-vGgn0xLdy8s-unsplash.jpg"
-                  alt="about 3"
-                  className="aspect-[0.7] rounded-lg object-cover"
-                />
-              </div>
-            </div>
           </div>
-          <div className="flex w-full flex-col items-center justify-center gap-12 pt-12 lg:w-1/2 lg:pt-48">
-            <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
-              <img
-                src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/johnson-wang-iI4sR_nkkbc-unsplash.jpg"
-                alt="about 4"
-                className="aspect-[0.9] w-full rounded-lg object-cover md:w-1/2"
-              />
-              <div className="flex w-full flex-col items-center justify-center gap-6 md:w-1/2">
-                <img
-                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg"
-                  alt="about 5"
-                  className="aspect-[0.8] rounded-lg object-cover"
-                />
-                <img
-                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/alvin-engler-bIhpiQA009k-unsplash.jpg"
-                  alt="about 6"
-                  className="aspect-[0.9] rounded-lg object-cover"
-                />
-              </div>
-            </div>
-            <div className="px-8">
-              <h1 className="mb-8 text-2xl font-semibold lg:mb-6">
-                Flinke namen
-              </h1>
-              <p className="mb-9 lg:text-xl">
-                De eerste namen in de klankbordgroep kunnen wij al bekend maken:
-              </p>
-              <p className="text-muted-foreground">
-                • Naam 1<br />
-                • Naam 2<br />
-                • Naam 3<br />
-                • Naam 4<br />
-                • Naam 5<br />
-                • Naam 6<br />
-                • Naam 7<br />
-                • Naam 8<br />
-              </p>
+          <div className="flex w-full flex-col items-start justify-start gap-6 lg:w-1/2 lg:pt-16">
+            <div className="px-0 lg:px-8 w-full">
+              <ul className="text-muted-foreground space-y-2 list-disc pl-5">
+                <li>Jan Peter Balkenende (adviseur EY)</li>
+                <li>Stefaan Decraene (voorzitter Groepsdirectie Rabobank)</li>
+                <li>Sharon Dijksma (burgemeester Utrecht, voorzitter VNG)</li>
+                <li>Jeroen Dijsselbloem (burgemeester Eindhoven, voorzitter Stichting Brainport)</li>
+                <li>Frans Everts (president-directeur Shell Nederland)</li>
+                <li>Robert de Groot (vice-president EIB)</li>
+                <li>Pieter Hasekamp (directeur CPB)</li>
+                <li>Theo Henrard (voorzitter FME)</li>
+                <li>Roy Jakobs (CEO Koninklijke Philips)</li>
+                <li>Stephanie Klein Nagelvoort-Schuit (voorzitter Raad van Bestuur UMCG)</li>
+                <li>Klaas Knot (voormalig president DNB)</li>
+                <li>Constantijn van Oranje (special envoy Techleap)</li>
+                <li>Hellen van der Plas (CEO Signify Benelux)</li>
+	              <li>Mirjam van Praag (voorzitter AWTI)</li>
+	              <li>Kim Putters (voorzitter SER)</li>
+	              <li>Sven Smit (senior partner McKinsey)</li>
+	              <li>Meindert Stolk (gedeputeerde Provincie Zuid Holland, lid bestuurlijke
+                  adviescommissies IPO)</li>
+	              <li>Ingrid Thijssen (voorzitter VNO-NCW)</li>
+	              <li>Tjark Tjin-A-Tsoi (CEO TNO)</li>
+	              <li>Dimitri de Vreeze (CEO DSM-Firmenich)</li>
+	              <li>Ronald Wuijster (CEO APG Asset Management)</li>
+                <li>Rinke Zonneveld (CEO Invest-NL)</li>
+              </ul>
             </div>
           </div>
         </div>
