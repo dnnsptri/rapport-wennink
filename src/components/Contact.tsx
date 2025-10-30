@@ -21,14 +21,14 @@ const Contact = ({
   emailDescription = "Neem hiervoor contact op met de woordvoerder van Peter Wennink, Margriet Bokhorst:",
   email = "pers@rapportwennink.nl",
   officeLabel = "Andere vraag?",
-  officeDescription = "Heeft u een andere vraag voor Peter Wennink, stuur dan een e-mail naar het volgende adres:",
+  officeDescription = "Heeft u een andere vraag over dit onderwerp? Stuur dan een e-mail naar het volgende adres:",
   officeAddress = "vraag@rapportwennink.nl",
   phoneLabel = "Phone",
   phoneDescription = "0646767704",
   phone = "+31646767704",
 }: ContactProps) => {
   return (
-    <section id="contact" className="bg-background py-8">
+    <section id="contact" className="bg-background py-20">
       <div className="max-w-7xl mx-auto px-6 md:px-4">
         <div className="mb-14">
           <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:mb-10 lg:text-6xl">
@@ -65,7 +65,7 @@ const Contact = ({
             </span>
             <p className="mb-2 text-lg font-semibold">{officeLabel}</p>
             <p className="mb-3">{officeDescription}</p>
-            <a href="#" className="font-semibold hover:underline">
+            <a href={`mailto:${officeAddress}`} className="font-semibold hover:underline">
               {officeAddress}
             </a>
           </div>
@@ -81,7 +81,7 @@ const Contact = ({
               </a>
             </p> */}
           </div>
-      </div>
+        </div>
       </div>
     </section>
   );

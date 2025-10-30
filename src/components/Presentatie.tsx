@@ -12,7 +12,7 @@ const Presentatie = () => {
                 Presentatie Rapport Wennink 12 december in Nieuwspoort
             </h1>
             <p className="intro">
-              Peter Wennink presenteert zijn rapport op vrijdag 12 december 2025 in Nieuwspoort.<br />
+              Peter Wennink presenteert zijn rapport op vrijdag 12 december 2025 in Nieuwspoort.
               Zijn rapport zal bestaan uit:
             </p>
             <ul className="space-y-2">
@@ -30,13 +30,13 @@ const Presentatie = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Check className="size-4 shrink-0 mt-0.5" />
-                suggesties voor nieuwe vormen van samenwerking tussen overheid, kennisinstellingen en bedrijfsleven om investeringen mogelijk te maken.
+                suggesties voor praktische vormen van samenwerking en financiering om deze voorstellen werkelijkheid te laten worden.
               </li>
             </ul>
             <div className="flex w-full flex-col items-center gap-2 sm:flex-row">
             <Button asChild size="lg" className="w-auto">
               <a href="mailto:pers@rapportwennink.nl?subject=Ik%20ben%20graag%20bij%20de%20presentatie%20van%20het%20rapport%20van%20Peter%20Wennink%20op%2012%20december%20in%20Nieuwspoort">
-                Ik ben journalist en ben er graag bij!
+                Ik ben journalist en meld me aan
               </a>
             </Button>
             </div>

@@ -92,27 +92,21 @@ const Opdracht = () => {
         {/* Icon and Intro */}
         <div className="mb-12 space-y-8 text-center">
            <div className="space-y-6">
-            <h2>
-              Opdracht aan Peter Wennink
-            </h2>
-            <p className="text-muted-foreground text-xl leading-relaxed">
-            Het demissionair kabinet Schoof vroeg mij begin september om een onafhankelijk advies uit te brengen over het toekomstige verdienvermogen van Nederland [link naar Kamerbrief: Kamerbrief over advies over versterking investeringsklimaat en verdienvermogen | Kamerstuk | Rijksoverheid.nl ]. Ik kijk daarbij ook naar de betekenis van de adviezen van het rapport Draghi
-[link naar rapport opnemen; The Draghi report on EU competitiveness ] voor Nederland. Mijn
-opdracht is te laten zien hoe ons land structureel kan investeren in zijn verdienvermogen en
-strategische relevantie, zodat groei, innovatie en welvaart in de komende decennia behouden
-blijven.
-Ik heb deze opdracht om niet aanvaard omdat ik me ernstige zorgen maak. Als we niets doen komt
-onze economie tot stilstand. De kosten van stilstand worden vele malen hoger dan de
-investeringen die nu nodig zijn. Onze welvaart en veiligheid worden onbetaalbaar als we ons
-toekomstig verdienvermogen niet op orde brengen.
-In mijn brief [link naar brief opnemen, brief als pdf op website] aan de leiders van politieke partijen
-leg ik mijn zorgen en hoe ik mijn opdracht invul uit. Met mijn onafhankelijke advies wil ik de
-formerende partijen helpen om tot een inhoudelijk sterk en toekomstgericht akkoord te komen.
-Partijleiders staan er niet alleen voor. Overal in het land staan bedrijven, kennisinstellingen en
-vakmensen klaar om samen te bouwen aan een toekomstbestendig Nederland, waarin innovatie,
-ondernemerschap en kennis elkaar versterken.<br/>
-Peter Wennink
-            </p>
+            <h1>
+              Mijn opdracht
+            </h1>
+              <p className="intro">
+                Het demissionair kabinet Schoof vroeg mij begin september om <a href="https://open.overheid.nl/documenten/60f1d81e-52e2-41c6-9bd0-4a58fdd069aa/file" target="_blank" rel="noopener noreferrer">een onafhankelijk advies uit te brengen</a> over het toekomstige verdienvermogen van Nederland. Ik kijk daarbij ook naar de betekenis van <a href="https://commission.europa.eu/topics/eu-competitiveness/draghi-report_en" target="_blank" rel="noopener noreferrer">de adviezen van het rapport Draghi</a> voor Nederland.
+              </p>
+              <p className="text-xl leading-relaxed">
+                Mijn opdracht is te laten zien hoe ons land structureel kan investeren in zijn verdienvermogen en strategische relevantie, zodat groei, innovatie en welvaart in de komende decennia behouden blijven.<br />
+                Ik heb deze opdracht aanvaard omdat ik me ernstige zorgen maak. Als we niets doen komt onze economie tot stilstand. De kosten van stilstand worden vele malen hoger dan de investeringen die nu nodig zijn. Onze welvaart en veiligheid worden onbetaalbaar als we ons toekomstig verdienvermogen niet op orde brengen.<br />
+                In <a href="/_downloads/brief_rapportwennink.pdf" target="_blank" rel="noopener noreferrer">mijn brief</a> aan de leiders van politieke partijen leg ik mijn zorgen en hoe ik mijn opdracht invul uit. Met mijn onafhankelijke advies wil ik de formerende partijen helpen om tot een inhoudelijk sterk en toekomstgericht akkoord te komen.<br />
+                Partijleiders staan er niet alleen voor. Overal in het land staan bedrijven, kennisinstellingen en vakmensen klaar om samen te bouwen aan een toekomstbestendig Nederland, waarin innovatie, ondernemerschap en kennis elkaar versterken.<br />
+              </p>
+              <p className="text-xl leading-relaxed">
+                Peter Wennink
+              </p>            
           </div>
         </div>
       </div>

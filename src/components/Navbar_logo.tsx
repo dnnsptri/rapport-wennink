@@ -31,9 +31,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center mr-8">
-            <Button asChild size="lg" className="w-auto cta-btn">
-              <a href="/_downloads/kamerbrief_rapportwennink.pdf" target="_blank" rel="noopener noreferrer" className="no-underline">
-                Lees de Kamerbrief (PDF)
+          <Button variant="outline" size="lg">
+              <a href="#contact" className="no-underline">
+                Contact
               </a>
             </Button>
           </div>
