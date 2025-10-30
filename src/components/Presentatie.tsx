@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Presentatie = () => {
   return (
-    <section id="presentatie" className="bg-white py-32">
+    <section id="presentatie" className="bg-white py-36">
       <div className="max-w-7xl mx-auto px-6 md:px-4">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <div className="flex flex-col gap-6">
@@ -34,9 +34,11 @@ const Presentatie = () => {
               </li>
             </ul>
             <div className="flex w-full flex-col items-center gap-2 sm:flex-row">
-              <Button size="lg" className="w-auto">
+            <Button asChild size="lg" className="w-auto">
+              <a href="mailto:pers@rapportwennink.nl?subject=Ik%20ben%20graag%20bij%20de%20presentatie%20van%20het%20rapport%20van%20Peter%20Wennink%20op%2012%20december%20in%20Nieuwspoort">
                 Ik ben journalist en ben er graag bij!
-              </Button>
+              </a>
+            </Button>
             </div>
           </div>
           <img

@@ -43,7 +43,7 @@ const Footer = ({
   },
 }: FooterProps) => {
   return (
-    <section className="py-32">
+    <section className="py-8">
       <div className="max-w-7xl mx-auto px-4">
         <footer>
           <div className="text-muted-foreground mt-20 flex flex-col justify-between gap-4 border-t pt-8 text-sm font-medium lg:flex-row lg:items-center lg:text-left">

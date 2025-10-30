@@ -24,7 +24,7 @@ const HeaderQuote = () => {
   }, []);
 
   return (
-    <section id="headerquote" className="py-32">
+    <section id="headerquote" className="py-21">
       <div className="max-w-7xl mx-auto px-6 md:px-4">
         <div className={`transition-all duration-1000 ease-out ${
           isVisible 
@@ -32,7 +32,7 @@ const HeaderQuote = () => {
             : 'opacity-0 translate-y-8'
         }`}>
           <div className="text-hero">
-            <p className="flex flex-wrap items-center" style={{lineHeight: '1.1'}}>
+            <p className="flex flex-wrap items-center" style={{lineHeight: '1.2'}}>
               Nú samen investeren in Nederlands verdienvermogen en strategische relevantie met onafhankelijk advies {/*{" "}
               <span className="relative inline-block">
                 <span>advies</span>
@@ -63,9 +63,9 @@ const HeaderQuote = () => {
                 <Opdracht />
               </DialogContent>
             </Dialog>
-            <Button variant="outline" size="lg">
+            {/*<Button variant="outline" size="lg">
               Download als PDF
-            </Button>
+            </Button>*/}
           </div>
         </div>
       </div>

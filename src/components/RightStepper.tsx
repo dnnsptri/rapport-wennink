@@ -18,17 +18,41 @@ export function RightStepper() {
 
     const observer = new IntersectionObserver(
       (entries) => {
-        const visible = entries.find((e) => e.isIntersecting);
-        if (visible) {
-          setActiveId((visible.target as HTMLElement).id);
+        // Pick the entry with the highest intersection ratio
+        const best = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (best) {
+          const id = (best.target as HTMLElement).id;
+          setActiveId(id);
         }
       },
-      { rootMargin: "-25% 0px -65% 0px", threshold: 0.1 }
+      {
+        root: null,
+        rootMargin: "-25% 0px -65% 0px",
+        threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
+      }
     );
 
     elements.forEach(({ el }) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
+
+    // Fallback: on scroll, determine the section whose top is nearest but below viewport top offset
+    const onScroll = () => {
+      const viewportY = window.innerHeight * 0.35; // align with rootMargin roughly
+      const candidates = elements.map(({ id, el }) => ({ id, top: el.getBoundingClientRect().top }));
+      const visible = candidates
+        .filter((c) => c.top <= viewportY)
+        .sort((a, b) => Math.abs(a.top - viewportY) - Math.abs(b.top - viewportY))[0];
+      if (visible && visible.id !== activeId) setActiveId(visible.id);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll(); // initialize on mount
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, [activeId]);
 
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });

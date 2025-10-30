@@ -142,7 +142,7 @@
   
   @media (min-width: 1024px) {
     h1 {
-      @apply text-6xl;
+      @apply text-5xl;
     }
   }
 
@@ -242,6 +242,12 @@
 
 @layer utilities {
   /* Typography Utility Classes */
+  
+  /* Klankbordgroep name styling */
+  .kb-name {
+    font-family: var(--font-space-grotesk);
+    font-weight: 600;
+  }
   
   /* Hero Text */
   .text-hero {
