@@ -31,11 +31,11 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center mr-8">
-          <Button variant="outline" size="lg">
-              <a href="#contact" className="no-underline">
-                Contact
-              </a>
-            </Button>
+          <Button variant="outline" size="lg" asChild>
+            <a href="#contact">
+              Contact
+            </a>
+          </Button>
           </div>
         </nav>
       </div>

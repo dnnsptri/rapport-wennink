@@ -34,7 +34,7 @@ const Presentatie = () => {
               </li>
             </ul>
             <div className="flex w-full flex-col items-center gap-2 sm:flex-row">
-            <Button asChild size="lg" className="w-auto">
+            <Button variant="default" asChild size="lg" className="w-auto">
               <a href="mailto:pers@rapportwennink.nl?subject=Ik%20ben%20graag%20bij%20de%20presentatie%20van%20het%20rapport%20van%20Peter%20Wennink%20op%2012%20december%20in%20Nieuwspoort">
                 Ik ben journalist en meld me aan
               </a>

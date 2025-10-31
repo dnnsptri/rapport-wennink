@@ -204,6 +204,17 @@
     text-decoration: none;
   }
   
+  /* Ensure primary button anchors (using asChild) have white text */
+  [data-slot="button"].bg-primary,
+  [data-slot="button"][class*="bg-primary"] {
+    color: white !important;
+  }
+  
+  [data-slot="button"].bg-primary:hover,
+  [data-slot="button"][class*="bg-primary"]:hover {
+    color: white !important;
+  }
+  
   a:focus {
     @apply outline-none ring-2 ring-ring ring-offset-2;
   }

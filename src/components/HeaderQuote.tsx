@@ -33,33 +33,32 @@ const HeaderQuote = () => {
         }`}>
           <div className="text-hero">
             <p className="flex flex-wrap items-center" style={{lineHeight: '1.2'}}>
-              {/*<img src="/_images/quote.svg" alt="Quote" className="w-36 h-36" />*/}
               Mijn opdracht is te laten zien hoe Nederland structureel kan investeren in zijn verdienvermogen en strategische relevantie, zodat groei, innovatie en welvaart in de komende decennia behouden blijven.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-10">
             <Dialog>
               <DialogTrigger asChild>
-                <Button size="lg">
+                <Button variant="default" size="lg">
                   Lees mijn opdracht
                 </Button>
               </DialogTrigger>
-              <DialogContent className="w-[720px] !max-w-[720px] max-h-[75vh] overflow-y-auto">
+              <DialogContent className="w-[1000px] !max-w-[1280px] !top-[10vh] !bottom-0 !translate-y-0 !left-[50%] !translate-x-[-50%] !max-h-[90vh] overflow-y-auto">
                 <DialogHeader>
-                  <DialogTitle className="sr-only">Opdracht Details</DialogTitle>
+                  <DialogTitle className="sr-only">Mijn opdracht</DialogTitle>
                 </DialogHeader>
                 <Opdracht />
               </DialogContent>
             </Dialog>
-            <a
-              href="/_downloads/311025_RapportWennink_BriefPartijleiders.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" asChild>
+              <a
+                href="/_downloads/311025_RapportWennink_BriefPartijleiders.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Bekijk mijn brief (PDF)
-              </Button>
-            </a>
+              </a>
+            </Button>
           </div>
         </div>
       </div>
