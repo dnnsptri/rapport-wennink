@@ -20,17 +20,17 @@ const Navbar = () => {
         : 'opacity-0 translate-y-8'
     }`}>
       <div className="w-full">
-        <nav className="flex items-center justify-between py-4">
-          <div className="flex items-center ml-8">
+        <nav className="flex items-center justify-between py-3 md:py-4">
+          <div className="flex items-center ml-4 md:ml-8">
             <div className="flex items-center gap-2 select-none">
               <img
-                src="/_images/bm_Rapport_Wennink.svg"
+                src="/_images/bm_rapport_wennink.svg"
                 alt="Rapport Wennink"
-                className="h-18 dark:invert transform scale-95"
+                className="h-12 md:h-16 dark:invert transform scale-95"
               />
             </div>
           </div>
-          <div className="flex items-center mr-8">
+          <div className="flex items-center mr-4 md:mr-8">
           <Button variant="outline" size="lg" asChild>
             <a href="#contact">
               Contact

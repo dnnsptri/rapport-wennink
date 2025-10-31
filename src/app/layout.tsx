@@ -40,7 +40,6 @@ export default function RootLayout({
 
           gtag('config', 'G-KBZRG1ZZCF');
         </script> */}
-        <link rel="icon" href="/_images/Favicon.svg" sizes="any" type="image/svg+xml" />
       </head>
       <body
         className={`${spaceGrotesk.variable} ${bitter.variable} antialiased`}

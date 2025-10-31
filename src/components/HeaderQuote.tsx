@@ -24,8 +24,8 @@ const HeaderQuote = () => {
   }, []);
 
   return (
-    <section id="headerquote" className="py-21">
-      <div className="max-w-7xl mx-auto px-6 md:px-4">
+    <section id="headerquote" className="py-12 md:py-21">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className={`transition-all duration-1000 ease-out ${
           isVisible 
             ? 'opacity-100 translate-y-0' 
@@ -36,7 +36,7 @@ const HeaderQuote = () => {
               Mijn opdracht is te laten zien hoe Nederland structureel kan investeren in zijn verdienvermogen en strategische relevantie, zodat groei, innovatie en welvaart in de komende decennia behouden blijven.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-5 mt-10">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-5 mt-6 md:mt-10">
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="default" size="lg">

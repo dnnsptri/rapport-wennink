@@ -2,10 +2,10 @@ const Opdracht = () => {
 
   return (
     <section className="py-6">
-      <div className="container max-w-5xl px-12 md:px-8">
+      <div className="container max-w-5xl px-4 md:px-8 lg:px-12">
         {/* Icon and Intro */}
-        <div className="mb-12 space-y-8">
-           <div className="space-y-6">
+        <div className="mb-8 md:mb-12 space-y-6 md:space-y-8">
+           <div className="space-y-4 md:space-y-6">
             <h1>
               Mijn opdracht
             </h1>

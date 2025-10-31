@@ -1,14 +1,14 @@
 const Klankbordgroep = () => {
   return (
-    <section id="klankbordgroep" className="py-36">
-      <div className="max-w-7xl mx-auto px-6 md:px-4">
-        <div className="flex flex-col items-start justify-start gap-12 lg:flex-row">
-          <div className="flex w-full flex-col items-start justify-start gap-10 lg:w-1/2">
-            <div className="pr-6">
-              <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:mb-10 lg:text-6xl">
+    <section id="klankbordgroep" className="py-16 md:py-36">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="flex flex-col items-start justify-start gap-8 md:gap-12 lg:flex-row">
+          <div className="flex w-full flex-col items-start justify-start gap-6 md:gap-10 lg:w-1/2">
+            <div className="pr-0 md:pr-6">
+              <h1 className="mb-4 text-3xl font-bold md:mb-6 md:text-5xl lg:mb-10 lg:text-6xl">
                 Klankbordgroep Wennink
               </h1>
-              <p className="intro mb-9">
+              <p className="intro mb-6 md:mb-9">
                 Een door Peter Wennink breed samengestelde klankbordgroep van deskundigen en bestuurders uit het bedrijfsleven, de financiële sector, kennisinstellingen en overheid denkt mee over het advies. Deze groep helpt om te zorgen dat zijn rapport niet alleen economisch stevig onderbouwd is, maar ook doeltreffend en maatschappelijk relevant wordt.
               </p>
               <p>

@@ -28,17 +28,17 @@ const Contact = ({
   phone = "+31646767704",
 }: ContactProps) => {
   return (
-    <section id="contact" className="bg-background py-20">
-      <div className="max-w-7xl mx-auto px-6 md:px-4">
-        <div className="mb-14">
-          <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:mb-10 lg:text-6xl">
+    <section id="contact" className="bg-background py-12 md:py-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <div className="mb-8 md:mb-14">
+          <h1 className="mb-4 text-3xl font-bold md:mb-6 md:text-5xl lg:mb-10 lg:text-6xl">
             {title}
           </h1>
           {/* <p className="max-w-xl text-lg">
             {description}
           </p> */}
         </div>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-4 md:gap-6 md:grid-cols-2">
           <div className="bg-muted rounded-lg p-6">
             <span className="bg-accent mb-3 flex size-12 flex-col items-center justify-center rounded-full">
               <MapPin className="h-6 w-auto" />
@@ -71,7 +71,7 @@ const Contact = ({
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4">
-          <div className="mt-20 flex flex-col justify-between gap-4 border-t pt-8 text-sm font-medium lg:flex-row lg:items-center lg:text-left">
+          <div className="mt-12 md:mt-20 flex flex-col justify-between gap-4 border-t pt-6 md:pt-8 text-sm font-medium lg:flex-row lg:items-center lg:text-left">
             <p>
               © 2025 Rapport Wennink.
             </p>
