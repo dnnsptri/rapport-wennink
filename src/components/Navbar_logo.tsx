@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="flex items-center ml-8">
             <div className="flex items-center gap-2 select-none">
               <img
-                src="/_images/bm_rapport_wennink.svg"
+                src="/_images/bm_Rapport_Wennink.svg"
                 alt="Rapport Wennink"
                 className="h-18 dark:invert transform scale-95"
               />
