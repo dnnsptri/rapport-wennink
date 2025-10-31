@@ -24,7 +24,7 @@ const Contact = ({
   officeDescription = "Heeft u een andere vraag over dit onderwerp? Stuur dan een e-mail naar het volgende adres:",
   officeAddress = "vraag@rapportwennink.nl",
   phoneLabel = "Phone",
-  phoneDescription = "0646767704",
+  phoneDescription = "06 4676 7704",
   phone = "+31646767704",
 }: ContactProps) => {
   return (
@@ -56,7 +56,7 @@ const Contact = ({
               href={`tel:${phone}`}
               className="font-semibold hover:underline"
             >
-              {phone}
+              {phoneDescription}
             </a>
           </div>
           <div className="bg-muted rounded-lg p-6">

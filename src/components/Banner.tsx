@@ -33,8 +33,7 @@ const Banner = ({
       <div className="max-w-7xl mx-auto px-4">
         <div className="relative flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <Button
-            variant="ghost"
-            size="icon"
+            variant="outline"
             className="absolute right-0 top-0 h-8 w-8 md:hidden"
             onClick={handleClose}
           >
@@ -54,7 +53,7 @@ const Banner = ({
             <Button
               size="sm"
               className="w-full md:w-auto"
-              variant="secondary"
+              variant="outline"
               asChild
             >
               <a href={buttonUrl} target="_blank" rel="noopener noreferrer">
@@ -63,8 +62,7 @@ const Banner = ({
               </a>
             </Button>
             <Button
-              variant="ghost"
-              size="icon"
+              variant="outline"
               className="hidden h-8 w-8 md:inline-flex text-primary-foreground hover:bg-primary-foreground/10"
               onClick={handleClose}
             >

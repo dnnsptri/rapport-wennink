@@ -73,8 +73,7 @@ const Navbar = () => {
 
           <Button
             variant="outline"
-            size="icon"
-            className="lg:hidden"
+            className="lg:hidden h-10 w-10"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X /> : <Menu />}

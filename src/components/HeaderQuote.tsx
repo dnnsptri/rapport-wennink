@@ -43,7 +43,7 @@ const HeaderQuote = () => {
                   Lees mijn opdracht
                 </Button>
               </DialogTrigger>
-              <DialogContent className="w-[1000px] !max-w-[1280px] !top-[10vh] !bottom-0 !translate-y-0 !left-[50%] !translate-x-[-50%] !max-h-[90vh] overflow-y-auto">
+              <DialogContent className="w-full max-w-[calc(100%-2rem)] md:w-[1000px] md:!max-w-[1280px] !top-[5vh] md:!top-[10vh] !bottom-0 !translate-y-0 !left-[50%] !translate-x-[-50%] !max-h-[90vh] overflow-y-auto">
                 <DialogHeader>
                   <DialogTitle className="sr-only">Mijn opdracht</DialogTitle>
                 </DialogHeader>
