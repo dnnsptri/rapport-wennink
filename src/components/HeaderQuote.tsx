@@ -52,7 +52,7 @@ const HeaderQuote = () => {
               </DialogContent>
             </Dialog>
             <a
-              href="/_downloads/brief_rapportwennink.pdf"
+              href="/_downloads/311025_RapportWennink_BriefPartijleiders.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -26,7 +26,7 @@ const Presentatie = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Check className="size-4 shrink-0 mt-0.5" />
-                voorstellen om de Nederlandse positie in kritieke technologieën te versterken; en
+                voorstellen om de Nederlandse positie in kritieke technologieën te versterken;
               </li>
               <li className="flex items-start gap-2">
                 <Check className="size-4 shrink-0 mt-0.5" />
@@ -42,9 +42,9 @@ const Presentatie = () => {
             </div>
           </div>
           <img
-            src="/_images/wennink2.jpg"
+            src="/_images/visual_wennink.png"
             alt="Peter Wennink tijdens zijn presentatie bij Nieuwspoort"
-            className="border-border w-full max-w-lg rounded-lg border"
+            className="border-border w-full max-w-lg rounded-lg border ml-12"
           />
         </div>
       </div>
