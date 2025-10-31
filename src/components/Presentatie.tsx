@@ -42,7 +42,7 @@ const Presentatie = () => {
             </div>
           </div>
           <img
-            src="/_images/visual_Wennink.png"
+            src="/_images/visual_wennink.png"
             alt="Peter Wennink presenteert zijn rapport"
             className="border-border w-full max-w-lg rounded-lg border ml-12"
           />
